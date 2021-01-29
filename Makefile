@@ -11,7 +11,7 @@ CCFLAGS  = -O3 -std=c++11 -Wall
 
 # EDIT THIS to point to the location where you installed boost
 # this should be the main directory containing boost/ doc/ libs/ etc as subdirectories
-BOOSTDIR = /home/pbradley/include/boost_1_67_0
+BOOSTDIR = /mnt/New/FDA_COVID_TCR/TCR_Cluster/pubtcrs/boost_1_75_0
 
 # 
 INCLUDES = -I ./include/  -I $(BOOSTDIR)
