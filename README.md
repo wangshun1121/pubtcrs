@@ -34,12 +34,12 @@ The first 11 columns are data in vdjtools format, and last 4 columns are pgen an
 To select amplified TCR of all samples, using following command:
 
 ```
-ls ./*.txt|perl TCR.Select.pl > SelectedTCR.pl
+ls ./*.txt|perl TCR.Select.pl > SelectedTCR.xls
 ```
 
 Selected data in following format:
 
-| Sample          | count | freq        | cdr3nt                | cdr3aa            | v        | d       | j       | VEnd | DStart | DEnd | JStart | pgen     | pvalue    | qvalue    | Status    |
+| Sample          | count | freq        | V_CDR3                | cdr3aa            | v        | d       | j       | VEnd | DStart | DEnd | JStart | pgen     | pvalue    | qvalue    | Status    |
 |-----------------|-------|-------------|-----------------------|-------------------|----------|---------|---------|------|--------|------|--------|----------|-----------|-----------|-----------|
 | KH20-09950_TCRB | 96    | 0.000169938 | V06,CASSEGNQPQHF      | CASSEGNQPQHF      | TRBV6-1  | TRBD1   | TRBJ1-5 | -1   | 14     | -1   | 18     | 2.17E-07 | 2.25E-238 | 8.23E-233 | Amplified |
 | KH20-09950_TCRB | 95    | 0.000168168 | V07,CASSSRASPAYEQYF   | CASSSRASPAYEQYF   | TRBV7-9  | TRBD1   | TRBJ2-7 | 12   | 16     | 19   | 28     | 1.31E-10 | 0         | 0         | Amplified |

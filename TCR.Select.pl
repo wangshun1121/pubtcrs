@@ -2,7 +2,7 @@
 
 $NNN=0;
 
-print "Sample\tcount\tfreq\tcdr3nt\tcdr3aa\tv\td\tj\tVEnd\tDStart\tDEnd\tJStart\tpgen\tpvalue\tqvalue\tStatus\n";
+print "Sample\tcount\tfreq\tV_CDR3\tcdr3aa\tv\td\tj\tVEnd\tDStart\tDEnd\tJStart\tpgen\tpvalue\tqvalue\tStatus\n";
 while($Line=<>){
     chomp($Line);
     $ID=(split/\//,$Line)[-1];
